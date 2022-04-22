@@ -8,5 +8,15 @@
             "dialect" : "mysql"
 
         }
+    },
+    "production":{
+        "database" : "sql11487481",
+        "username" : "sql11487481",
+        "password" : "dCll8jezJP",
+        "dialectInformation" : {
+            "host" : 3306,
+            "dialect" : "sql11.freemysqlhosting.net"
+
+        }
     }
 }
