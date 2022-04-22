@@ -85,7 +85,7 @@ db.sequelize.sync({force:true}).then(()=>{
 require("./routes/UserSign.route")(app) 
 require("./routes/product.route")(app)
 require("./routes/Cart.route")(app)
-app.listen(process.env.port,(req,res)=>{
+app.listen(process.env.PORT,(req,res)=>{
     console.log("This is 3030 server");
 });
 
