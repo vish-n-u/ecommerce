@@ -4,7 +4,7 @@
         "username" : "root",
         "password" : "MYSQLlover@123",
         "dialectInformation" : {
-            "host" : 3306,
+            "host" : "localhost",
             "dialect" : "mysql"
 
         }
