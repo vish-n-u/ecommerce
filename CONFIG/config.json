@@ -1,0 +1,12 @@
+{
+    "backend":{
+        "database" : "ecommerce1",
+        "username" : "root",
+        "password" : "MYSQLlover@123",
+        "dialectInformation" : {
+            "host" : 3306,
+            "dialect" : "mysql"
+
+        }
+    }
+}

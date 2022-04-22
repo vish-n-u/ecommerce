@@ -1,0 +1,32 @@
+{
+  "name": "projectecommerce",
+  "version": "1.0.0",
+  "description": "My ecommerce project RELEVEL",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vish-n-u/ecommerce.git"
+  },
+  "author": "vishnu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vish-n-u/ecommerce/issues"
+  },
+  "homepage": "https://github.com/vish-n-u/ecommerce#readme",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "express": "^4.17.3",
+    "heroku": "^7.60.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql2": "^2.3.3",
+    "password": "^0.1.1",
+    "sequelize": "^6.17.0"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
