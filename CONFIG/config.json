@@ -10,7 +10,7 @@
         }
     },
     "production":{
-        "database" : "sql11487481",
+        "database" : "sql11.freemysqlhosting.net",
         "username" : "sql11487481",
         "password" : "dCll8jezJP",
         "dialectInformation" : {
