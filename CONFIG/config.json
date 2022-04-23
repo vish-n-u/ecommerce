@@ -10,11 +10,11 @@
         }
     },
     "production":{
-        "database" : "sql11.freemysqlhosting.net",
-        "username" : "sql11487481",
-        "password" : "dCll8jezJP",
+        "database" : "ujT5evnHUa",
+        "username" : "ujT5evnHUa",
+        "password" : "a3WI29h1wd",
         "dialectInformation" : {
-            "host" : "sql11.freemysqlhosting.net",
+            "host" : "remotemysql.com",
             "dialect" : "mysql"
 
         }
