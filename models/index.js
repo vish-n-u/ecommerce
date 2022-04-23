@@ -1,7 +1,8 @@
 const Sequelize = require ('sequelize')
 const dbConfig = require("../CONFIG/config.json")
+process.env['NODE_ENV'] = 'production'
 
-env = process.env.Node_ENV||"production"
+env = process.env.Node_ENV||"backend"
 const dbSetting = dbConfig[env]
 const sequelize = new Sequelize(
     dbSetting.database,
