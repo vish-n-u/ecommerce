@@ -114,9 +114,11 @@ const secretKEy  = "SecretKey"
 // // }
 // // signin()
 
-var total = {
-    sum :0
-}
+// var total = {
+//     sum :0
+// }
 
-total.sum = total.sum+1
-console.log(total.sum)
+// total.sum = total.sum+1
+// console.log(total.sum)
+var arr = [1,2,3,4,4,5,2,6,1,7,7,9,8]
+console.log([...arr])

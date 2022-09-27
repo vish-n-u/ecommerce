@@ -37,6 +37,6 @@ db.cart.belongsToMany(db.products,{
 db.products.belongsToMany(db.cart,{
     through:"cart_products"
 })
-
+  
 db.user.hasMany(db.cart)
 module.exports = db
