@@ -1,5 +1,5 @@
 const db = require("../models/index");
-//const { categoryId } = require('../routes/ValidationProduct')
+
 const Product = db.products;
 // Create and Save a New Product
 exports.Create = function (req, res) {
